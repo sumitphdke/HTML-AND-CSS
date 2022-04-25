@@ -1,0 +1,15 @@
+ul{
+    list-style-type: none;
+    padding: 1px;
+    margin:0px;
+
+
+}
+li{
+    display: inline;
+}
+.nav{
+    background-color: blue;
+    padding:0;
+    padding-top:0px;
+}
