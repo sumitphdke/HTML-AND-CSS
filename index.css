@@ -1,15 +1,84 @@
 ul{
     list-style-type: none;
-    padding: 1px;
+    padding-top:10px;
+    padding-left:0px;
     margin:0px;
-
-
+}
+a{
+    text-decoration: none;
 }
 li{
     display: inline;
+    font-size:20px;
+    padding:20px;
+    margin-top:10px;
+    text-decoration: none;
 }
 .nav{
-    background-color: blue;
-    padding:0;
+    position: fixed;
+    padding:0px;
     padding-top:0px;
+    background-color:grey;
+    /* height:50px; */
+    top:0;
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+    width:100%;
+}
+.home:hover{
+    background-color:white;
+}
+body{
+    margin:0px;
+}
+.bgimg{
+    width:1000px;
+    height:1000px;
+}
+.bg{
+    background-image:url(Homepagebg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:763px;
+}
+#hi{
+   /* padding:100px;
+    margin:0px ;*/
+    animation-name:nameslidein;
+    font-family: 'Pacifico', cursive;
+    animation-duration:4s;
+    margin:0px;
+}
+#hi2{
+   /* padding:111px;
+    margin:1px;*/
+    font-family: 'Pacifico', cursive;
+    margin:0px;
+}
+@keyframes nameslidein {
+    from{
+        margin-left:300%;
+        width:300%;
+    }    
+    to{
+        margin-left:0%;
+        width:100%;
+    }
+}
+.intro{
+    padding:200px;
+}
+
+.about{
+    background-color:blue;
+    background:url(backgroundabout.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 1349px;
+    height:1000px;
+    
+}
+.aboutdiv{
+    color:white;
+    padding:400px;
 }
